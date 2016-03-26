@@ -1,0 +1,19 @@
+{
+  "name": "webpack-modules-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-stringify": "^1.0.2",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "escape-string-regexp": "^1.0.5"
+  }
+}
