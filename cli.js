@@ -25,6 +25,8 @@ if (!statsFile || args.help || !(args.json || args.csv || args.inspect)) {
     '  --limit=X - limit results to top X item',
     '  --match=REGEXP - limit results to modules with name matching REGEXP',
     '  --chunk=CHUNK - limit results to modules in CHUNK',
+    '  --summarize - summarize results',
+    '  --source - include source',
   ]
   console.log(help.join('\n'))
   return
